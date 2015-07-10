@@ -311,7 +311,7 @@ static struct {
 	} ignore;
 } cfg;
 
-static char *arg_aur_domain = "aur.archlinux.org";
+static char *arg_aur_domain = "aur4.archlinux.org";
 
 /* globals */
 static alpm_handle_t *pmhandle;
@@ -2363,7 +2363,7 @@ void usage(void)
 	    "  -u, --update              check for updates against AUR -- can be combined "
 	                                   "with the -d flag\n\n");
 	fprintf(stderr, " General options:\n"
-	    "      --domain <fqdn>       point cower at a different AUR (default: aur.archlinux.org)\n"
+	    "      --domain <fqdn>       point cower at a different AUR (default: aur4.archlinux.org)\n"
 	    "  -f, --force               overwrite existing files when downloading\n"
 	    "  -h, --help                display this help and exit\n"
 	    "      --ignore <pkg>        ignore a package upgrade (can be used more than once)\n"
